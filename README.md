@@ -9,4 +9,4 @@ Checkout: Review a final order summary and receive an order confirmation.
 The technologies used are:
 -> HTML
 ->CSS
-->JavaScript  edi ok na anna readme dile lo
+->JavaScript 
