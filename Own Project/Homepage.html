@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 🛍️FreshFlow Mart</title>
+    <link rel="stylesheet" href="./Homepage.css" class="css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body id="home_page">
+    
+    <div id="header">
+        <h1> 🛒 FreshFlow Mart </h1>
+        <div class="search_bar">
+           <input type="search" id="serach_box" placeholder="Search here....">
+            <label for="serach_box"
+             <i class="fa-solid fa-magnifying-glass"></i>
+             </label>
+        </div>
+    </div>
+
+    <div id="nav">
+        <main id="nav_one">
+
+         <a href="./Homepage.html"> Home </a>
+         <a href="#shop_category"> Category </a>
+         <a href="./Product.html"> Product </a>
+         <a href="#footer"> Contact </a>
+        
+        </main>
+
+        <aside id="shop_logo">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span id="cart-count">0</span>
+        </aside>
+
+        <aside id="heart">
+            <i class="fa-solid fa-heart"></i>
+        </aside>
+
+        <aside id="account">
+            <i class="fa-solid fa-circle-user"></i>
+        </aside>
+
+    </div>
+
+    <div id="photo">
+        <img src="./Assests/Index page Logo.png" alt="Logo">
+        <h1> Where Freshness Flows to Your Doorstep </h1>
+      <!-- <button id="btn"> Get Started </button> -->
+    </div>
+
+<section id="shop_category">
+    <div id="shop_by_category">
+          <center>  <h1> Shop By Category </h1></center>
+
+    <div class="container">
+        <div class="card">
+            <img src="./Assests/vegetables.jpg" alt="vegetables">
+            <h5> Upto 30% off </h5>
+            <h3> Vegetables </h3>
+            <button > Shop Now </button>
+        </div>
+
+        <div class="card">
+            <img src="./Assests/Juices.jpeg" alt="juices">
+            <h5> Upto 30% off </h5>
+            <h3> Juices</h3>
+            <button> Shop Now </button>
+        </div>
+
+        <div class="card">
+            <img src="./Assests/meat.jpg" alt="meat">
+            <h5> Upto 30% off </h5>
+            <h3> Meat </h3>
+            <button> Shop Now </button>
+        </div>
+            
+        <div class="card">
+             <img src="./Assests/fruits.jpg" alt="fruits">
+             <h5> Upto 30% off </h5>
+            <h3> Fruits  </h3>
+            <button> Shop Now </button>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section id="latest_prod">
+
+    <div id="latest_products">
+      <center>  <h1> Latest Products </h1> </center>
+   
+      <div class="card_container">
+      <div class="prodcard">
+           <img src="./Assests/banana.jpg" alt="banana">
+           <h3> Banana </h3>
+           <div class="stars">★★★★★</div>
+           <p class="price">₹10 </p>
+           <div class="qty">
+              Quantity: <input type="number">
+            </div>
+            <button class="add-cart"> Add To Cart</button>
+      </div>
+
+      <div class="prodcard">
+        <img src="./Assests/milk.jpg" alt="milk">
+        <h3> Milk </h3>
+        <div class="stars">★★★★</div>
+           <p class="price">₹100 </p>
+           <div class="qty">
+              Quantity: <input type="number"> lt
+            </div>
+            <button class="add-cart"> Add To Cart</button>
+        </div>
+
+        <div class="prodcard">
+            <img src="./Assests/mixed_fruit_juice.jpg" alt="fruit juice">
+            <h3> Mixed Fruit Juice </h3>
+            <div class="stars">★★★★★</div>
+           <p class="price">₹70 </p>
+           <div class="qty">
+              Quantity: <input type="number"> lt
+            </div>
+            <button class="add-cart"> Add To Cart</button>
+        </div>
+
+        <div class="prodcard">
+            <img src="./Assests/butter.jpg" alt="butter">
+            <h3> Butter </h3>
+            <div class="stars">★★★★★</div>
+           <p class="price">₹50 </p>
+           <div class="qty">
+              Quantity: <input type="number">
+            </div>
+            <button class="add-cart"> Add To Cart</button>
+        </div>
+
+        <div class="prodcard">
+            <img src="./Assests/mixed-dry-fruits.jpg" alt="dryfruits">
+            <h3> Mixed Dry Fruits</h3>
+            <div class="stars">★★★★★</div>
+           <p class="price">₹90 </p>
+           <div class="qty">
+              Quantity: <input type="number"> kg
+            </div>
+            <button class="add-cart"> Add To Cart</button>
+        </div>
+
+        <div class="prodcard">
+            <img src="./Assests/orange.jpg" alt="orange">
+            <h3> Orange </h3>
+            <div class="stars">★★★★</div>
+           <p class="price">₹5 </p>
+           <div class="qty">
+              Quantity: <input type="number"> kg
+            </div>
+            <button class="add-cart"> Add To Cart</button>
+        </div>
+    </div>
+
+   </div>
+</section>
+
+<center> <button id="send_message"> Send Message </button></center>
+
+<section class="subscribe">
+      <center><h2> Subscribe for Latest Updates</h2></center>
+
+    <div class="subscribe_box">
+       <input type="email" placeholder="enter your email">
+       <button> Subscribe </button>
+
+    </div>
+
+</section>
+
+<footer id="footer">
+    <div class="footer_container">
+        <div class="footer_box">
+            <h3> 🛒 FreshFlow Mart </h3>
+            <p> Fresh Flow Mart is your one-stop destination for fresh groceries, offering premium quality products,
+                  affordable prices, and a smooth shopping experience everyday.
+            </p>
+        </div>
+
+        <div class="footer_box">
+            <h3> Locations</h3>
+            <p> India </p>
+            <p> Singapore </p>
+            <p> Russia </p>
+            <p> USA </p>
+            <p> France </p>
+        </div>
+
+        <div class="footer_box">
+            <h3> Quick Links</h3>
+            <p> Home </p>
+            <p> Category </p>
+            <p> Product </p>
+            <p> Contact </p>
+        </div>
+
+        <div class="footer_box">
+            <h2> Contact Us </h2>
+            <h4> 📧freshflow@gmail.com </h4>
+            <div id="icon_container">
+              <div class="icons"> <i class="fa-brands fa-instagram"></i> </div>
+              <div class="icons"> <i class="fa-brands fa-facebook"></i> </div>
+              <div class="icons"> <i class="fa-brands fa-whatsapp"></i> </div>
+          </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Cart Sidebar -->
+<div id="cart-sidebar">
+  <h2>Your Cart</h2>
+  <div id="cart-items"></div>
+
+  <h3>Total: ₹<span id="cart-total">0</span></h3>
+  <button id="buy-btn">Buy Now</button>
+</div>
+
+<!-- Overlay -->
+<div id="cart-overlay"></div>
+
+<script src="./Homepage.js"></script>
+
+</body>
+
+</html>
